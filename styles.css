@@ -1,0 +1,80 @@
+*{
+	box-sizing: border-box;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	border: 1px solid;
+	font-family: Arial, sans-serif;
+	text-align: center;
+
+}
+
+body{
+	height: 100vh;
+	background-color: rgb(0, 0, 0);
+}
+
+header{
+	height: 5%;	
+	background-color: rgb(0, 0, 0);
+	border-bottom: 2px solid white;
+	border-radius: 20%;
+}
+
+h1{
+	text-align: center;
+	border: none;
+	margin: auto;
+	position: relative;
+	top: 10%;
+	color: white;
+}
+
+main{
+	height: 95%;
+	background-color: black;
+}
+
+div{
+	height: 50%;
+	border-radius: 5%;
+}
+
+#lucas{
+	background-color: lightblue;
+}
+
+#thaiz{
+	background-color: rgb(255, 153, 153);
+}
+
+
+table{
+	width: 95%;
+	height: 85%;
+	margin: auto;
+	background-color: rgb(255, 255, 255);
+	border: none;
+	border-collapse: collapse;
+
+}
+
+caption{
+	font-size: 1.6em;
+	border: none;
+	margin: 0.4em;
+}
+
+th{
+	background-color: gray;
+}
+
+td{
+	background-color: white;
+}
+
+tr td:first-child{
+	background-color: lightgray;
+}
+
+
